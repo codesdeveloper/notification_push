@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificação Push</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <form>
+        <h2>Crianco notificações push</h2>
+        <input placeholder="Titulo da noticação" type="text" name="title">
+        <input placeholder="Conteudo da notificação" type="text"  name="body">
+        <label>Icone: <input name="icon" type="file" accept="image/*" /> <span></span></label>
+        <button type="submit">Criar</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.8/push.min.js" integrity="sha512-eiqtDDb4GUVCSqOSOTz/s/eiU4B31GrdSb17aPAA4Lv/Cjc8o+hnDvuNkgXhSI5yHuDvYkuojMaQmrB5JB31XQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
